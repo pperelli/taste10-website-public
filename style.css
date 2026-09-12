@@ -1,0 +1,214 @@
+/*
+ * style.css -- shared by both sites.
+ *
+ * WHY ONE FILE FOR TWO SITES
+ *   They are the same company and should not look like strangers to each
+ *   other. What differs is one accent colour, set per site on <body> as
+ *   `class="site-taste10"`, so the shape, spacing and type stay identical.
+ *
+ * WHY IT IS THIS SMALL
+ *   Every one of these pages is words: a paragraph about the company, an
+ *   Impressum, a privacy policy. A framework would add a hundred kilobytes to
+ *   deliver text that needs none of it, and the pages have to open quickly on a
+ *   phone in a shop -- the same phone the app runs on.
+ *
+ * TYPOGRAPHY
+ *   System fonts, on purpose: nothing to download, and they are the fonts the
+ *   reader's own device is designed around. The measure is capped near 68
+ *   characters, which is where long legal text stops being tiring to read.
+ */
+
+:root {
+  --ink: #1f1a17;
+  --ink-soft: #5c534c;
+  --paper: #fffbf5;
+  --surface: #ffffff;
+  --line: #e8e0d6;
+  --accent: #2f5d62;
+  --radius: 14px;
+}
+
+/* Taste10 borrows the app's own accent, so the website and the product on the
+   phone are recognisably the same thing. */
+body.site-taste10 {
+  --accent: #e8542f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 42rem; /* about 68 characters at this size */
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ---------------------------------------------------------------- header */
+
+header.top {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+header.top .wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+nav.lang a {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+nav.lang a[aria-current="true"] {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------ text */
+
+main {
+  padding: 2.5rem 0 3.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2.25rem 0 0.6rem;
+}
+
+h3 {
+  font-size: 1.02rem;
+  margin: 1.5rem 0 0.4rem;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 1rem;
+}
+
+ul,
+ol {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+}
+
+a {
+  color: var(--accent);
+}
+
+/* A plain definition list, used for the Impressum and for "who gets what
+   data" -- a table would suggest numbers, and these are facts. */
+dl.facts {
+  margin: 0 0 1.5rem;
+}
+
+dl.facts dt {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 1rem;
+}
+
+dl.facts dd {
+  margin: 0.1rem 0 0;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+  margin: 1.5rem 0;
+}
+
+.updated {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+/* Marks text that is still a placeholder. Visible on purpose: a blank in a
+   legal page must be impossible to miss during a review, and
+   scripts/check_placeholders.mjs refuses to publish while any remain. */
+.todo {
+  background: #ffe9e3;
+  border-bottom: 2px solid #e8542f;
+  padding: 0 0.15em;
+}
+
+/* ---------------------------------------------------------------- footer */
+
+footer.bottom {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem 0 2.5rem;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+footer.bottom a {
+  color: var(--ink-soft);
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #f4efe9;
+    --ink-soft: #b9afa5;
+    --paper: #16130f;
+    --surface: #1e1a16;
+    --line: #322b24;
+    --accent: #8fc0c4;
+  }
+
+  body.site-taste10 {
+    --accent: #ff8a66;
+  }
+
+  .todo {
+    background: #4a2118;
+  }
+}

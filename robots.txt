@@ -1,0 +1,15 @@
+# taste10.com
+#
+# Crawling is allowed. The Impressum lives on perelli.ch and carries
+# a noindex tag rather than being blocked in a file like this,
+# and that difference is deliberate: a page blocked in this file is never
+# fetched, so the noindex tag inside it is never read -- and a blocked page can
+# still turn up in results. Letting a crawler in to read "do not index me" is
+# the combination that actually keeps the address out of search.
+#
+# This affects well-behaved crawlers only. Address harvesters ignore every line
+# of this file, which is why the addresses on every other page are built by
+# script and never appear in the HTML.
+
+User-agent: *
+Allow: /

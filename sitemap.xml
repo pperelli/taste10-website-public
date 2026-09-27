@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Only the two homepages: support, privacy and terms carry noindex on purpose
+  (CLAUDE.md, rule 7), and a sitemap listing a noindex page sends search
+  engines two opposite signals. Update <lastmod> when a homepage changes.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://taste10.com/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/"/>
+  </url>
+</urlset>

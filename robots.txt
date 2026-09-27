@@ -1,6 +1,6 @@
 # taste10.com
 #
-# Crawling is allowed. The Impressum lives on perelli.ch and carries
+# Crawling is allowed. The legal notice carries
 # a noindex tag rather than being blocked in a file like this,
 # and that difference is deliberate: a page blocked in this file is never
 # fetched, so the noindex tag inside it is never read -- and a blocked page can
@@ -13,3 +13,5 @@
 
 User-agent: *
 Allow: /
+
+Sitemap: https://taste10.com/sitemap.xml

@@ -3,69 +3,290 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Taste10 — wie gut schmeckt es DIR?</title>
-<meta name="description" content="Taste10 lernt deinen Geschmack und sagt voraus, wie gut dir ein Lebensmittel, ein Getränk oder ein Gericht schmecken wird. Allergien und Ernährung haben immer Vorrang.">
+<title>Taste10: dein persönlicher Geschmacks-Score von 0 bis 10</title>
+<meta name="description" content="Taste10 ist eine App, die deinen Geschmack lernt und vorhersagt, wie gut dir ein Lebensmittel, ein Getränk, ein Gericht oder eine Speisekarte schmecken wird: ein persönlicher Score von 0 bis 10 mit Begründung.">
 <link rel="canonical" href="https://taste10.com/de/">
 <link rel="alternate" hreflang="en" href="https://taste10.com/">
 <link rel="alternate" hreflang="de" href="https://taste10.com/de/">
-<link rel="stylesheet" href="../style.css">
-<script src="../lang.js"></script>
+<link rel="alternate" hreflang="x-default" href="https://taste10.com/">
+<meta name="theme-color" content="#e8542f">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Taste10">
+<meta property="og:title" content="Taste10: dein Geschmack in deiner Tasche">
+<meta property="og:description" content="Fotografiere ein Produkt, ein Gericht oder eine ganze Speisekarte und sieh, wie gut es zu deinem eigenen Geschmack passt: als persönlicher Score von 0 bis 10 mit Begründung.">
+<meta property="og:url" content="https://taste10.com/de/">
+<meta property="og:image" content="https://taste10.com/img/og-image-de.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Das Taste10-App-Symbol neben den Worten Dein Geschmack in deiner Tasche">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preload" as="image" href="/img/taste10-app-icon.webp" type="image/webp">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/taste10.css">
+<script src="/lang.js"></script>
+
+<!--
+  Strukturierte Daten, wie auf der englischen Seite: was die App ist, und die Fragen unten als maschinenlesbare Paare. Alles hier
+  muss auch sichtbar auf der Seite stehen und heute für die App stimmen.
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://taste10.com/#website",
+      "url": "https://taste10.com/",
+      "name": "Taste10",
+      "inLanguage": [
+        "en",
+        "de"
+      ]
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://taste10.com/#app",
+      "name": "Taste10",
+      "alternateName": "Taste 10",
+      "url": "https://taste10.com/de/",
+      "image": "https://taste10.com/img/taste10-app-icon.png",
+      "description": "Taste10 ist eine App, die den Geschmack einer Person lernt und vorhersagt, wie gut ihr ein Lebensmittel, ein Getränk, ein Gericht oder eine Speisekarte schmecken wird: als persönlicher Score von 0 bis 10 mit Begründung. Sie liest Etiketten und Speisekarten von einem Foto, erklärt unbekanntes Essen und prüft jeden Scan gegen Ernährung und Allergien.",
+      "applicationCategory": "LifestyleApplication",
+      "applicationSubCategory": "Essen und Trinken",
+      "operatingSystem": "iOS, Android",
+      "inLanguage": [
+        "de",
+        "en"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://taste10.com/de/#faq",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist Taste10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Taste10 ist eine App für iPhone und Android, die deinen Geschmack lernt und vorhersagt, wie gut dir persönlich ein Lebensmittel, ein Getränk, ein Gericht oder eine ganze Speisekarte schmecken wird. Du fotografierst es, und Taste10 gibt dir einen Score von 0 bis 10 mit Begründung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist der Score von Taste10 eine Qualitätsbewertung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Der Score ist eine Vorhersage über dich, nie ein Urteil über Qualität. Ein hervorragendes Produkt kann ehrlicherweise eine 3 bekommen, wenn es deinem Geschmack widerspricht, und das Alltägliche, das du liebst, eine 9. Dieselbe Schokolade kann für dich eine 9 sein und für jemand anderen eine 3."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lernt Taste10 meinen Geschmack?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Am Anfang steht eine kurze Einrichtung: was du magst und was du nicht essen kannst oder willst. Danach machen kurze Fragen zu einzelnen Lebensmitteln und deine Bewertungen von Dingen, die du wirklich probiert hast, die Vorhersagen immer persönlicher. Dein Geschmacksporträt verändert sich, je mehr Taste10 lernt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann Taste10 Speisekarten und Etiketten in anderen Sprachen lesen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Fotografiere ein Etikett oder eine Speisekarte, auch in einer Schrift, die du nicht lesen kannst, etwa Japanisch oder Thai, und Taste10 sagt dir in deiner Sprache, was es ist und wie gut es zu dir passt. Auf einer Speisekarte zeigt es dir die Gerichte, die am besten passen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prüft Taste10 Allergien und Ernährung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Du sagst Taste10 einmal, wie du dich ernährst und welche Allergien du hast, und jeder Scan wird darauf geprüft, getrennt vom Geschmack. Passt etwas nicht, siehst du eine Warnung über dem Score. Taste10 liest, was es erkennen kann, und sagt dir, wie sicher es ist. Das ist eine hilfreiche erste Prüfung, keine Garantie: Wenn du eine Allergie hast, prüf immer das echte Etikett oder frag beim Personal nach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kann ich mit Taste10 fotografieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alles zum Essen oder Trinken: ein verpacktes Produkt, ein Getränk, ein Gericht auf deinem Teller, ein Regal mit mehreren Produkten oder eine Speisekarte. Du kannst bis zu drei Fotos auf einmal machen, zum Beispiel die Vorderseite einer Packung und die Zutatenliste, oder mehrere Seiten einer Speisekarte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Sprachen spricht Taste10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die App selbst gibt es auf Deutsch und Englisch. Was du fotografierst, darf in fast jeder Sprache sein: Taste10 liest Etiketten und Speisekarten in anderen Sprachen und Schriften, etwa Japanisch, Thai oder Griechisch, und sagt dir in deiner App-Sprache, was draufsteht und wie gut es zu dir passt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wann gibt es Taste10?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Taste10 wird gerade getestet und kommt in den App Store und zu Google Play. Wenn du es früh ausprobieren möchtest, melde dich über die Support-Seite."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
-<body class="site-taste10">
+<body class="site-taste10 home">
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="/de/">Taste10</a>
-    <nav class="lang">
+    <a class="brand" href="/de/"><img src="/img/taste10-mark.png" alt="" width="34" height="34"><span>Taste<b>10</b></span></a>
+    <nav class="lang" aria-label="Sprache">
       <a href="/" data-lang="en">EN</a> ·
       <a href="/de/" aria-current="true" data-lang="de">DE</a>
     </nav>
   </div>
 </header>
 
-<main class="wrap">
-  <h1>Wie gut schmeckt es <em>dir</em>?</h1>
-  <p class="lead">
-    Taste10 lernt, was du magst, und sagt dir vorher, wie gut etwas zu deinem
-    Geschmack passt. Fotografiere ein Produkt, ein Gericht oder eine ganze
-    Speisekarte.
-  </p>
+<main class="wrap home-main">
+<div class="shell">
 
-  <h2>Ein Score für dich, keine Kritik</h2>
-  <p>
-    Taste10 gibt ein Match von 0 bis 10. Das ist eine Vorhersage über
-    <em>dich</em>, nie ein Urteil über Qualität: Ein hervorragendes Produkt kann
-    ehrlicherweise eine 3 bekommen, wenn es deinem Geschmack widerspricht — und
-    das Alltägliche, das du liebst, eine 9.
-  </p>
-
-  <h2>Deine Allergien zuerst</h2>
-  <p>
-    Ernährung und Allergien werden getrennt vom Geschmack geprüft und haben
-    immer Vorrang. Passt etwas nicht, siehst du das über dem Score. Taste10
-    schlägt nie etwas vor, das deine Ernährung oder deine Allergien ausschliessen.
-  </p>
-  <p>
-    Taste10 liest, was es erkennen kann, und sagt dir, wie sicher es ist. Das
-    ist eine hilfreiche erste Prüfung, keine Garantie — wenn du eine Allergie
-    hast, prüf immer das echte Etikett oder frag beim Personal nach.
-  </p>
-
-  <h2>Es lernt dich kennen</h2>
-  <p>
-    Am Anfang steht eine kurze Einrichtung. Danach schärfen kurze Fragen zu
-    einzelnen Lebensmitteln und deine Bewertungen von Dingen, die du wirklich
-    gegessen hast, die Vorhersagen. Dein Geschmacksporträt verändert sich, je
-    mehr Taste10 lernt.
-  </p>
-
-  <div class="card">
-    <h3 style="margin-top:0">Bald im App Store und bei Google Play</h3>
-    <p style="margin-bottom:0">
-      Taste10 wird gerade getestet. Wenn du es früh ausprobieren möchtest,
-      melde dich über die <a href="/de/support.html">Support-Seite</a>.
+  <section class="hero" aria-labelledby="tagline">
+    <picture>
+      <source srcset="/img/taste10-app-icon.webp" type="image/webp">
+      <img class="icon" src="/img/taste10-app-icon.png" alt="Das Taste10-App-Symbol: Messer und Löffel bilden die Zahl 10" width="152" height="152">
+    </picture>
+    <h1 class="tagline" id="tagline">Dein Geschmack <span>in deiner Tasche</span></h1>
+    <p class="lead">
+      <strong>Taste10 lernt deinen persönlichen Geschmack</strong> und sagt voraus,
+      wie gut dir ein Lebensmittel, ein Getränk, ein Gericht oder eine ganze
+      Speisekarte schmecken wird. Fotografiere es und bekomm einen persönlichen
+      Score von 0 bis 10, mit Begründung.
     </p>
-  </div>
+    <div class="stores" aria-label="Wo es Taste10 gibt">
+      <span class="store"><small>Bald im</small><strong>App Store</strong></span>
+      <span class="store"><small>Bald bei</small><strong>Google Play</strong></span>
+    </div>
+    <p class="early">Taste10 wird gerade getestet. Du möchtest es früh ausprobieren? <a href="/de/support.html">Melde dich</a>.</p>
+  </section>
+
+  <section aria-labelledby="where">
+    <div class="section-head">
+      <h2 id="where">Überall, wo es etwas zu essen oder zu trinken gibt</h2>
+      <p>Im Supermarkt, im Urlaub, im Restaurant.</p>
+    </div>
+    <div class="cards">
+      <article class="feature">
+        <img src="/img/taste10-supermarket-ice-cream-score.webp" alt="Ein Handy über einer Supermarkt-Tiefkühltruhe zeigt den Score 8.6 für einen Eisbecher" width="640" height="640" decoding="async">
+        <h3>Wisse es vor dem Kauf.</h3>
+        <p>Dein Begleiter im Supermarkt: Fotografiere ein Produkt und sieh, wie gut es zu deinem eigenen Geschmack passt, als persönlicher Score von 0 bis 10 mit Begründung.</p>
+        <p class="caption">Salted-Caramel-Eis: 8.6 für dich. Süß und cremig, die Kombination, die du am höchsten bewertest.</p>
+      </article>
+      <article class="feature">
+        <img src="/img/taste10-foreign-labels-umeboshi-kimchi.webp" alt="Gläser mit japanischen und koreanischen Etiketten, portugiesische Puddingtörtchen und Tamales" width="640" height="640" decoding="async">
+        <h3>Jedes Etikett. Jede Sprache.</h3>
+        <p>Im Urlaub oder im internationalen Regal: Taste10 erklärt dir, was es ist, in deiner Sprache, und ob es dein neuer Favorit werden könnte.</p>
+        <p class="caption"><span lang="ja">梅干し</span> heißt Umeboshi: japanische eingelegte Pflaumen, sehr sauer und salzig.</p>
+      </article>
+      <article class="feature">
+        <img src="/img/taste10-restaurant-menu-ranking.webp" alt="Eine thailändische Speisekarte neben einem Handy, das ihre Gerichte mit 9.1, 8.4 und 7.9 bewertet" width="640" height="640" decoding="async">
+        <h3>Direkt zu dem, was dir schmeckt.</h3>
+        <p>Fotografiere eine beliebige Speisekarte und sieh, welche Gerichte am besten zu dir passen. Weniger Zeit mit der Karte, mehr Zeit mit deinen Freunden.</p>
+        <p class="caption">Die Gerichte dieser thailändischen Speisekarte, die am besten zu dir passen, nach Rang: 9.1, 8.4, 7.9.</p>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="what">
+    <div class="section-head">
+      <h2 id="what">Was Taste10 für dich tut</h2>
+      <p>Ein Score, der nur für dich gilt.</p>
+    </div>
+    <div class="cards two">
+      <article class="feature wide">
+        <img src="/img/taste10-same-chocolate-different-scores.webp" alt="Eine Tafel Schokolade zwischen zwei Handys, eines zeigt 9.1, das andere 3.4" width="640" height="640" loading="lazy">
+        <div class="text">
+          <h3>Wähle mit gutem Gefühl.</h3>
+          <p>Dein Score gilt nur für dich. Dieselbe Schokolade kann für dich eine 9 sein und für jemand anderen eine 3. Schluss mit Fehlkäufen.</p>
+          <p class="caption">Dieselbe Schokolade: 9.1 für dich, 3.4 für jemand anderen.</p>
+        </div>
+      </article>
+      <article class="feature wide">
+        <img src="/img/taste10-durian-dragon-fruit-explained.webp" alt="Eine Durian und eine aufgeschnittene Drachenfrucht neben einem Handy mit dem Score 6.8" width="640" height="640" loading="lazy">
+        <div class="text">
+          <h3>Unbekanntes verstehen.</h3>
+          <p>Eine seltsame Frucht, ein Produkt, das du nie gesehen hast, ein Gericht, das du nicht aussprechen kannst: Taste10 erklärt es dir in einfachen Worten, bevor du es probierst.</p>
+          <p class="caption">Durian: eine tropische Frucht mit süßem, cremigem Fruchtfleisch und berühmt starkem Geruch.</p>
+        </div>
+      </article>
+      <article class="feature wide">
+        <img src="/img/taste10-new-favourites-burrata-halloumi-mochi.webp" alt="Burrata, gegrillter Halloumi und Mochi auf einem Brett neben einem Handy mit drei hohen Scores" width="640" height="640" loading="lazy">
+        <div class="text">
+          <h3>Neue Lieblinge entdecken.</h3>
+          <p>Taste10 zeigt dir Dinge, die du noch nie probiert hast, die dir aber wahrscheinlich schmecken.</p>
+          <p class="caption">Burrata, Halloumi, Mochi: noch nie probiert, aber wahrscheinlich genau dein Ding.</p>
+        </div>
+      </article>
+      <article class="feature wide">
+        <img src="/img/taste10-peanut-allergy-warning.webp" alt="Nussriegel neben einem Handy mit einem Warnzeichen über dem Score" width="640" height="640" loading="lazy">
+        <div class="text">
+          <h3>Deine Ernährung und Allergien zuerst.</h3>
+          <p>Sag Taste10 einmal, was du nicht essen kannst oder willst, und jeder Scan wird darauf geprüft. Das ist eine hilfreiche erste Prüfung, keine Garantie: Prüf immer das echte Etikett.</p>
+          <p class="caption">Eine Erdnuss-Warnung für jemanden mit Erdnussallergie.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="how" aria-labelledby="how">
+    <img src="/img/taste10-how-it-works-three-steps.webp" alt="Drei nummerierte Szenen: Lebensmittel auf dem Handy auswählen, einen Teller Pasta fotografieren, ihn mit Sternen bewerten" width="640" height="640" loading="lazy">
+    <div>
+      <h2 id="how">Taste10 lernt deinen Geschmack.</h2>
+      <p>Je öfter du es nutzt, desto persönlicher werden deine Scores.</p>
+      <ol>
+        <li>Sag, was du magst</li>
+        <li>Fotografiere, was du essen oder trinken willst</li>
+        <li>Bewerte, was du probiert hast</li>
+      </ol>
+      <p class="loop">Mit jedem Mal wird es besser.</p>
+    </div>
+  </section>
+
+
+  <section class="sheet faq" aria-labelledby="questions">
+    <h2 id="questions">Fragen und Antworten</h2>
+
+    <h3>Was ist Taste10?</h3>
+    <p>Taste10 ist eine App für iPhone und Android, die deinen Geschmack lernt und vorhersagt, wie gut dir persönlich ein Lebensmittel, ein Getränk, ein Gericht oder eine ganze Speisekarte schmecken wird. Du fotografierst es, und Taste10 gibt dir einen Score von 0 bis 10 mit Begründung.</p>
+
+    <h3>Ist der Score von Taste10 eine Qualitätsbewertung?</h3>
+    <p>Nein. Der Score ist eine Vorhersage über dich, nie ein Urteil über Qualität. Ein hervorragendes Produkt kann ehrlicherweise eine 3 bekommen, wenn es deinem Geschmack widerspricht, und das Alltägliche, das du liebst, eine 9. Dieselbe Schokolade kann für dich eine 9 sein und für jemand anderen eine 3.</p>
+
+    <h3>Wie lernt Taste10 meinen Geschmack?</h3>
+    <p>Am Anfang steht eine kurze Einrichtung: was du magst und was du nicht essen kannst oder willst. Danach machen kurze Fragen zu einzelnen Lebensmitteln und deine Bewertungen von Dingen, die du wirklich probiert hast, die Vorhersagen immer persönlicher. Dein Geschmacksporträt verändert sich, je mehr Taste10 lernt.</p>
+
+    <h3>Kann Taste10 Speisekarten und Etiketten in anderen Sprachen lesen?</h3>
+    <p>Ja. Fotografiere ein Etikett oder eine Speisekarte, auch in einer Schrift, die du nicht lesen kannst, etwa Japanisch oder Thai, und Taste10 sagt dir in deiner Sprache, was es ist und wie gut es zu dir passt. Auf einer Speisekarte zeigt es dir die Gerichte, die am besten passen.</p>
+
+    <h3>Prüft Taste10 Allergien und Ernährung?</h3>
+    <p>Ja. Du sagst Taste10 einmal, wie du dich ernährst und welche Allergien du hast, und jeder Scan wird darauf geprüft, getrennt vom Geschmack. Passt etwas nicht, siehst du eine Warnung über dem Score. Taste10 liest, was es erkennen kann, und sagt dir, wie sicher es ist. Das ist eine hilfreiche erste Prüfung, keine Garantie: Wenn du eine Allergie hast, prüf immer das echte Etikett oder frag beim Personal nach.</p>
+
+    <h3>Was kann ich mit Taste10 fotografieren?</h3>
+    <p>Alles zum Essen oder Trinken: ein verpacktes Produkt, ein Getränk, ein Gericht auf deinem Teller, ein Regal mit mehreren Produkten oder eine Speisekarte. Du kannst bis zu drei Fotos auf einmal machen, zum Beispiel die Vorderseite einer Packung und die Zutatenliste, oder mehrere Seiten einer Speisekarte.</p>
+
+    <h3>Welche Sprachen spricht Taste10?</h3>
+    <p>Die App selbst gibt es auf Deutsch und Englisch. Was du fotografierst, darf in fast jeder Sprache sein: Taste10 liest Etiketten und Speisekarten in anderen Sprachen und Schriften, etwa Japanisch, Thai oder Griechisch, und sagt dir in deiner App-Sprache, was draufsteht und wie gut es zu dir passt.</p>
+
+    <h3>Wann gibt es Taste10?</h3>
+    <p>Taste10 wird gerade getestet und kommt in den App Store und zu Google Play. Wenn du es früh ausprobieren möchtest, melde dich über die <a href="/de/support.html">Support-Seite</a>.</p>
+
+  </section>
+
+</div>
 </main>
 
 <footer class="bottom">
@@ -78,7 +299,7 @@
   </div>
 </footer>
 
-<script src="../mail.js"></script>
+<script src="/mail.js"></script>
 
 </body>
 </html>

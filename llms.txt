@@ -1,0 +1,20 @@
+# Taste10
+
+> Taste10 is a mobile app for iPhone and Android that learns one person's taste and predicts how much they will enjoy a food, drink, dish or menu, as a personal score from 0 to 10 with the reason why. It is in testing and coming to the App Store and Google Play.
+
+Key facts:
+
+- The score is a personal fit prediction, never a quality rating. An excellent product can honestly score 3 for someone whose taste it clashes with; the same chocolate can be a 9 for one person and a 3 for another.
+- People photograph a packaged product, a drink, a dish, a shelf with several items or a restaurant menu, up to three photos at once. Taste10 identifies what it sees, explains unfamiliar food in plain words, and on a menu ranks the dishes that fit the person best.
+- It reads labels and menus in many languages and scripts (for example Japanese or Thai) and answers in the app's language.
+- Diets and allergies are checked on every scan, separately from taste, and always come first: a conflict is shown as a warning above the score. This is a helpful first check, not a guarantee; people with allergies should always check the real label or ask the staff.
+- It learns from a short setup, quick questions about individual foods, and ratings of things the person actually tried. A taste portrait shows what it has learned.
+- App languages: English and German. What people photograph can be in almost any language; Taste10 answers in the app language.
+
+## Pages
+
+- [Taste10 (English)](https://taste10.com/): what the app does, with questions and answers
+- [Taste10 (Deutsch)](https://taste10.com/de/): the same in German
+- [Support](https://taste10.com/support.html): how to reach the team
+- [Privacy Policy](https://taste10.com/privacy.html): what data the app processes and how to delete it
+- [Terms of Use](https://taste10.com/terms.html)

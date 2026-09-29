@@ -290,10 +290,10 @@ body.home .shell {
   gap: 1.25rem;
 }
 
-.feature.wide img {
-  grid-row: span 4;
-}
-
+/* The text is ONE grid item (.text), so the picture spans one row. A
+   leftover "span 4" from when heading, text and caption were separate
+   items made three empty rows, each with its gap: an empty strip at the
+   bottom of every wide card on desktop (Patrick, 29 September 2026). */
 .feature.wide .text {
   display: grid;
   gap: 0.5rem;

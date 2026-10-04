@@ -31,8 +31,10 @@
   'use strict';
 
   var KEY = 'taste10:lang';
-  var PATHS = { en: '/', de: '/de/' };
-  var here = document.documentElement.lang === 'de' ? 'de' : 'en';
+  // Polish joined on 4 October 2026, with the Polish homepage.
+  var PATHS = { en: '/', de: '/de/', pl: '/pl/' };
+  var pageLang = document.documentElement.lang;
+  var here = PATHS[pageLang] ? pageLang : 'en';
 
   function remember(lang) {
     try { localStorage.setItem(KEY, lang); } catch (e) { /* storage blocked */ }
@@ -47,7 +49,8 @@
   });
 
   // Rule 1.
-  if (location.pathname !== PATHS.en && location.pathname !== PATHS.de) return;
+  if (location.pathname !== PATHS.en && location.pathname !== PATHS.de &&
+      location.pathname !== PATHS.pl) return;
 
   try {
     if (localStorage.getItem(KEY)) return;              // already chose, once, ever
@@ -57,7 +60,8 @@
     return;                                             // storage blocked: leave them alone
   }
 
-  var wants = String(navigator.language || 'en').toLowerCase().indexOf('de') === 0 ? 'de' : 'en';
+  var browser = String(navigator.language || 'en').toLowerCase();
+  var wants = browser.indexOf('de') === 0 ? 'de' : browser.indexOf('pl') === 0 ? 'pl' : 'en';
   if (wants === here) return;
 
   // replace, not assign: the page they never meant to see should not sit in

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Only the two homepages: support, privacy and terms carry noindex on purpose
+  Only the homepages (EN, DE, PL): support, privacy and terms carry noindex on purpose
   (CLAUDE.md, rule 7), and a sitemap listing a noindex page sends search
   engines two opposite signals. Update <lastmod> when a homepage changes.
 -->
@@ -11,11 +11,20 @@
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/"/>
   </url>
   <url>
     <loc>https://taste10.com/de/</loc>
     <lastmod>2026-10-04</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/"/>
   </url>
 </urlset>

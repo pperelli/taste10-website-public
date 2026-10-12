@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <title>Get Taste10</title>
+  <!--
+    taste10.com/get -- the link every shared scan and taste portrait ends with
+    (the app's docs/SHARING.md). It sends an iPhone to the App Store and an
+    Android phone to Google Play; anything else, and every phone until the
+    store listings exist, goes to the homepage, which picks the language.
+
+    ON LAUNCH DAY: fill in the two links below. Until then they stay empty:
+    no store link before the store page exists (CLAUDE.md, hard rule 8).
+    Store links are the same in every country; the store opens its local page.
+  -->
+  <script>
+    (function () {
+      var APP_STORE = '';   // e.g. https://apps.apple.com/app/id6812444915
+      var GOOGLE_PLAY = ''; // e.g. https://play.google.com/store/apps/details?id=com.taste10.app
+      var ua = navigator.userAgent || '';
+      var isIos = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && 'ontouchend' in document);
+      var isAndroid = /Android/.test(ua);
+      var target = (isIos && APP_STORE) || (isAndroid && GOOGLE_PLAY) || '/';
+      window.location.replace(target);
+    })();
+  </script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <p><a href="/">Taste10</a></p>
+  </main>
+</body>
+</html>

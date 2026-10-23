@@ -483,3 +483,13 @@ body.home footer.bottom .wrap {
     backdrop-filter: none;
   }
 }
+
+/* ------------------------------------------------------------ footer */
+/* The current page stays in the footer menu, in bold and not a link, so the
+   menu is the same on every page of a language (scripts/footers.py). */
+footer.bottom span[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 600;
+  margin-right: 1rem;
+  display: inline-block;
+}

@@ -493,3 +493,18 @@ footer.bottom span[aria-current="page"] {
   margin-right: 1rem;
   display: inline-block;
 }
+
+/* Centred like the rest of the page (Patrick, 23 October 2026); the gaps
+   replace the links' right margin from style.css, so the row is truly
+   centred and wraps evenly on a phone. */
+body.site-taste10 footer.bottom .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.4rem;
+  text-align: center;
+}
+body.site-taste10 footer.bottom a,
+body.site-taste10 footer.bottom span[aria-current="page"] {
+  margin-right: 0;
+}

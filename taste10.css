@@ -69,7 +69,15 @@ body.site-taste10::after {
 
 /* -------------------------------------------------------------- header */
 
+/* Stays at the top while the page scrolls (Patrick, 2 November 2026): the
+   brand and the language switch are the same on every page, so they stay in
+   reach. Sticky rather than fixed, so it keeps its own space and nothing
+   below it needs a matching top margin. The glass background keeps the text
+   under it readable as it passes. */
 body.site-taste10 header.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   background: var(--glass);
   border-bottom: 1px solid var(--line);
   -webkit-backdrop-filter: blur(12px);

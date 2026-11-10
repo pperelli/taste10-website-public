@@ -875,6 +875,21 @@ body.site-taste10 footer.bottom span[aria-current="page"] {
   margin-right: 0;
 }
 
+/* The app's name in the stores, right above the store boxes (Patrick,
+   10 November 2026): in every footer only (Patrick did not want it at the
+   top of the homepage, where the slogan stands). */
+.store-name {
+  margin: 0.25rem 0 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+body.site-taste10 footer.bottom .footer-store-name {
+  flex-basis: 100%;
+  margin: 0 0 0.6rem;
+  text-align: center;
+}
+
 /* The store boxes on their own row above the footer menu (Patrick,
    4 November 2026), a little smaller than on the page itself. */
 body.site-taste10 footer.bottom .footer-stores {

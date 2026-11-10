@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Only the homepages (EN, DE, PL): support, privacy and terms carry noindex on purpose
-  (CLAUDE.md, rule 7), and a sitemap listing a noindex page sends search
-  engines two opposite signals. Update <lastmod> when a homepage changes.
+  Written by scripts/build_site.py from site/pages.json: every indexable page
+  in every language. Support, privacy and terms carry noindex on purpose
+  (CLAUDE.md, rule 7) and are left out.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -26,5 +26,509 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/guides/what-does-durian-taste-like.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-durian-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-durian.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-durian.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/wie-schmeckt-durian.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-durian-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-durian.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-durian.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/jak-smakuje-durian.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-durian-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-durian.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-durian.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/eating-abroad/thai-dishes-explained.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/thai-dishes-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/thailaendische-gerichte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/dania-tajskie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/thailaendische-gerichte.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/thai-dishes-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/thailaendische-gerichte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/dania-tajskie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/dania-tajskie.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/thai-dishes-explained.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/thailaendische-gerichte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/dania-tajskie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/glossary/umami.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/umami.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/umami.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/umami.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/umami.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/umami.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/umami.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/umami.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/umami.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/umami.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/umami.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/umami.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/guides/what-does-natto-taste-like.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-natto-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-natto.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-natto.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/wie-schmeckt-natto.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-natto-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-natto.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-natto.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/jak-smakuje-natto.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-natto-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-natto.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-natto.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/guides/what-does-century-egg-taste-like.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-century-egg-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-tausendjaehriges-ei.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-jajko-stuletnie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/wie-schmeckt-tausendjaehriges-ei.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-century-egg-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-tausendjaehriges-ei.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-jajko-stuletnie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/jak-smakuje-jajko-stuletnie.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-century-egg-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-tausendjaehriges-ei.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-jajko-stuletnie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/guides/what-does-kimchi-taste-like.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-kimchi-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-kimchi.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-kimchi.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/wie-schmeckt-kimchi.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-kimchi-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-kimchi.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-kimchi.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/jak-smakuje-kimchi.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-kimchi-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-kimchi.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-kimchi.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/guides/what-does-matcha-taste-like.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-matcha-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-matcha.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-matcha.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/wie-schmeckt-matcha.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-matcha-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-matcha.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-matcha.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/jak-smakuje-matcha.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-matcha-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-matcha.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-matcha.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/eating-abroad/japanese-convenience-store-food.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/japanese-convenience-store-food.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/konbini-japan.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/konbini-japonia.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/konbini-japan.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/japanese-convenience-store-food.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/konbini-japan.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/konbini-japonia.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/konbini-japonia.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/japanese-convenience-store-food.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/konbini-japan.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/konbini-japonia.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/eating-abroad/korean-menu-guide.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/korean-menu-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/koreanische-speisekarte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/koreanskie-menu.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/koreanische-speisekarte.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/korean-menu-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/koreanische-speisekarte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/koreanskie-menu.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/koreanskie-menu.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/korean-menu-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/koreanische-speisekarte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/koreanskie-menu.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/mexikanische-gerichte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/dania-meksykanskie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/mexikanische-gerichte.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/mexikanische-gerichte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/dania-meksykanskie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/dania-meksykanskie.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/mexikanische-gerichte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/dania-meksykanskie.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/eating-abroad/asian-supermarket-finds.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/asian-supermarket-finds.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/asiamarkt.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/sklep-azjatycki.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/asiamarkt.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/asian-supermarket-finds.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/asiamarkt.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/sklep-azjatycki.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/sklep-azjatycki.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/asian-supermarket-finds.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/asiamarkt.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/sklep-azjatycki.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/how-it-works/personal-taste-score.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/personal-taste-score.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/persoenlicher-geschmacks-score.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/spersonalizowany-wynik.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/so-funktioniert-taste10/persoenlicher-geschmacks-score.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/personal-taste-score.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/persoenlicher-geschmacks-score.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/spersonalizowany-wynik.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jak-dziala-taste10/spersonalizowany-wynik.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/personal-taste-score.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/persoenlicher-geschmacks-score.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/spersonalizowany-wynik.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/glossary/why-coriander-tastes-like-soap.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/why-coriander-tastes-like-soap.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/koriander-schmeckt-nach-seife.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/kolendra-smakuje-jak-mydlo.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/koriander-schmeckt-nach-seife.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/why-coriander-tastes-like-soap.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/koriander-schmeckt-nach-seife.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/kolendra-smakuje-jak-mydlo.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/kolendra-smakuje-jak-mydlo.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/why-coriander-tastes-like-soap.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/koriander-schmeckt-nach-seife.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/kolendra-smakuje-jak-mydlo.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/glossary/astringent.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/astringent.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/adstringierend.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/cierpki-smak.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/adstringierend.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/astringent.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/adstringierend.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/cierpki-smak.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/cierpki-smak.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/astringent.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/adstringierend.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/cierpki-smak.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/glossary/fermented-flavour.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/fermented-flavour.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/fermentierter-geschmack.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smak-fermentowany.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/fermentierter-geschmack.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/fermented-flavour.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/fermentierter-geschmack.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smak-fermentowany.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/smak-fermentowany.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/fermented-flavour.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/fermentierter-geschmack.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smak-fermentowany.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/glossary/what-is-an-acquired-taste.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/what-is-an-acquired-taste.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/geschmack-gewoehnen.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smaki-ktore-trzeba-polubic.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/geschmack-gewoehnen.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/what-is-an-acquired-taste.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/geschmack-gewoehnen.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smaki-ktore-trzeba-polubic.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/smaki-ktore-trzeba-polubic.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/what-is-an-acquired-taste.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/geschmack-gewoehnen.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smaki-ktore-trzeba-polubic.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/how-it-works/how-taste10-learns-your-taste.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/how-taste10-learns-your-taste.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/wie-taste10-deinen-geschmack-lernt.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/jak-taste10-poznaje-twoj-smak.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/so-funktioniert-taste10/wie-taste10-deinen-geschmack-lernt.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/how-taste10-learns-your-taste.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/wie-taste10-deinen-geschmack-lernt.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/jak-taste10-poznaje-twoj-smak.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jak-dziala-taste10/jak-taste10-poznaje-twoj-smak.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/how-taste10-learns-your-taste.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/wie-taste10-deinen-geschmack-lernt.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/jak-taste10-poznaje-twoj-smak.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/how-it-works/read-a-menu-in-any-language.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/read-a-menu-in-any-language.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/speisekarte-in-fremder-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/menu-w-obcym-jezyku.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/so-funktioniert-taste10/speisekarte-in-fremder-sprache.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/read-a-menu-in-any-language.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/speisekarte-in-fremder-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/menu-w-obcym-jezyku.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jak-dziala-taste10/menu-w-obcym-jezyku.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/read-a-menu-in-any-language.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/speisekarte-in-fremder-sprache.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/menu-w-obcym-jezyku.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/how-it-works/choosing-in-a-foreign-supermarket.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/choosing-in-a-foreign-supermarket.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/supermarkt-im-ausland.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/supermarket-za-granica.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/so-funktioniert-taste10/supermarkt-im-ausland.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/choosing-in-a-foreign-supermarket.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/supermarkt-im-ausland.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/supermarket-za-granica.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jak-dziala-taste10/supermarket-za-granica.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/choosing-in-a-foreign-supermarket.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/supermarkt-im-ausland.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/supermarket-za-granica.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/how-it-works/your-taste-portrait.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/your-taste-portrait.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/dein-geschmacksportraet.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/portret-smaku.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/so-funktioniert-taste10/dein-geschmacksportraet.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/your-taste-portrait.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/dein-geschmacksportraet.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/portret-smaku.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jak-dziala-taste10/portret-smaku.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/your-taste-portrait.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/dein-geschmacksportraet.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/portret-smaku.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/how-it-works/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/so-funktioniert-taste10/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jak-dziala-taste10/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/so-funktioniert-taste10/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jak-dziala-taste10/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/guides/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/eating-abroad/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/glossary/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/"/>
   </url>
 </urlset>

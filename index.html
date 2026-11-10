@@ -159,11 +159,23 @@
 <header class="top">
   <div class="wrap">
     <a class="brand" href="/"><img src="/img/taste10-mark.png" alt="" width="34" height="34"><span>Taste<b>10</b></span></a>
-    <nav class="lang" aria-label="Language">
-      <a href="/" aria-current="true" data-lang="en">EN</a> ·
-      <a href="/de/" data-lang="de">DE</a> ·
-      <a href="/pl/" data-lang="pl">PL</a>
+    <nav class="site-menu" aria-label="Menu">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/how-it-works/">How Taste10 Works</a>
+      <a href="/guides/">Taste Guides</a>
+      <a href="/eating-abroad/">Eating Abroad</a>
+      <a href="/glossary/">Taste Glossary</a>
     </nav>
+    <details class="lang-menu">
+      <summary aria-label="Language: English"><svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>EN</summary>
+      <nav class="lang" aria-label="Language">
+        <a href="/" aria-current="true" data-lang="en">English</a>
+        <a href="/de/" data-lang="de">Deutsch</a>
+        <a href="/pl/" data-lang="pl">Polski</a>
+      </nav>
+    </details>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Menu">
+    <label for="menu-toggle" class="menu-button" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg></label>
   </div>
 </header>
 
@@ -271,6 +283,15 @@
   </section>
 
 
+  <section class="sheet get-app" aria-labelledby="get-app">
+    <h2 id="get-app">Find out what fits your taste</h2>
+    <div class="stores" aria-label="Where to get Taste10">
+      <span class="store"><small>Coming soon to the</small><strong>App Store</strong></span>
+      <span class="store"><small>Coming soon to</small><strong>Google Play</strong></span>
+    </div>
+    <p class="early">Taste10 is in testing. Want to try it early? <a href="/support.html">Get in touch</a>.</p>
+  </section>
+
   <section class="sheet faq" aria-labelledby="questions">
     <h2 id="questions">Questions and answers</h2>
 
@@ -305,12 +326,21 @@
 
 <footer class="bottom">
   <div class="wrap">
+    <div class="stores footer-stores" aria-label="Where to get Taste10">
+      <span class="store"><small>Coming soon to the</small><strong>App Store</strong></span>
+      <span class="store"><small>Coming soon to</small><strong>Google Play</strong></span>
+    </div>
     <span aria-current="page">Home</span>
+    <a href="/how-it-works/">How Taste10 Works</a>
+    <a href="/guides/">Taste Guides</a>
+    <a href="/eating-abroad/">Eating Abroad</a>
+    <a href="/glossary/">Taste Glossary</a>
+    <span class="footer-break" aria-hidden="true"></span>
     <a href="/support.html">Support</a>
     <a href="/privacy.html">Privacy</a>
     <a href="/terms.html">Terms</a>
     <a href="/consumer-health-data.html">Consumer Health Data Privacy Policy</a>
-    <a href="https://perelli.ch/en/legal-notice.html">Legal notice</a>
+    <a href="/legal-notice.html">Legal notice</a>
   </div>
 </footer>
 

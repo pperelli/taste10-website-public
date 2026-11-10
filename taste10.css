@@ -107,6 +107,196 @@ body.site-taste10 .brand span b {
   font-weight: 700;
 }
 
+/* The header menu (Patrick, 3 November 2026): Home and the content sections,
+   written by scripts/build_site.py, always on the logo's line. On a wide
+   screen the links sit between the logo and the languages; on a phone they
+   open from a menu button (a checkbox, so no JavaScript is needed). */
+body.site-taste10 header.top .wrap {
+  position: relative;
+  /* As wide as what is in it, centred (Patrick, 3 November 2026): in the
+     article's 42rem the menu ran out to the right and the header sat
+     off-centre; at the homepage's 68rem it left a wide empty gap after the
+     logo. Never narrower than an article, never wider than the homepage. */
+  width: fit-content;
+  min-width: min(100%, 42rem);
+  max-width: 68rem;
+}
+
+body.site-taste10 header.top .brand {
+  margin-right: 1.5rem;
+}
+
+.site-menu {
+  display: flex;
+  gap: 1.35rem;
+  margin-left: auto;
+}
+
+.site-menu a {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-menu a:hover {
+  color: var(--ink);
+}
+
+.site-menu a[aria-current] {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* The language dropdown: a <details>, so it opens without JavaScript. */
+.lang-menu {
+  position: relative;
+}
+
+.site-menu + .lang-menu {
+  margin-left: 0.4rem;
+}
+
+.lang-menu summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+}
+
+.lang-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.lang-menu summary::after {
+  content: "";
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  margin-left: 0.1em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-0.2em) rotate(45deg);
+}
+
+.lang-menu[open] summary::after {
+  transform: translateY(0.05em) rotate(225deg);
+}
+
+.lang-menu nav.lang {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.4rem);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  min-width: 8.5rem;
+  padding: 0.35rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.lang-menu nav.lang a {
+  padding: 0.45rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.lang-menu nav.lang a:hover {
+  background: var(--line);
+}
+
+/* The menu button: hidden on a wide screen. The checkbox itself is never
+   seen but stays reachable by keyboard; its label is the button. */
+.menu-toggle {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .site-menu + .lang-menu {
+    margin-left: auto;
+  }
+
+  .menu-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 0.5rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .menu-toggle:focus-visible + .menu-button {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* closed: out of sight; ticked: a card under the header, like the
+     language list */
+  .site-menu {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: calc(100% + 0.4rem);
+    z-index: 20;
+    flex-direction: column;
+    gap: 0;
+    min-width: 13rem;
+    padding: 0.35rem;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+
+  header.top:has(.menu-toggle:checked) .site-menu {
+    display: flex;
+  }
+
+  .site-menu a {
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+
+  .site-menu a:hover {
+    background: var(--line);
+  }
+}
+
+/* Links that leave taste10.com open in a new tab (build_site.py adds the
+   target); the small arrow says so before the click. */
+a[target="_blank"]::after {
+  content: "\2197";
+  font-size: 0.8em;
+  margin-left: 0.15em;
+  text-decoration: none;
+  display: inline-block;
+}
+
 /* Legal and support pages: the text sits on a milk-glass sheet, so long
    paragraphs read on cream, not on a photograph. */
 body.site-taste10 main.wrap {
@@ -220,6 +410,22 @@ body.home .shell {
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.98rem;
+}
+
+/* The store boxes once more at the end of the homepage (Patrick, 4 November
+   2026), so a visitor who scrolled down has them at hand without going back
+   up. Same boxes and testing line as the hero; they become the official badges
+   with the hero's on launch day. */
+.get-app {
+  text-align: center;
+}
+
+.get-app h2 {
+  margin-top: 0;
+}
+
+.get-app .stores {
+  margin: 1rem 0 0.75rem;
 }
 
 /* Section headings on the homepage */
@@ -442,6 +648,158 @@ body.home footer.bottom .wrap {
   max-width: 68rem;
 }
 
+/* ------------------------------------------------------- content pages */
+/* The guides, lists, glossary and "how it works" pages (CLAUDE.md, "Content
+   pages"). They sit on the same sheet as the legal pages; these rules add
+   what an article needs: the trail back, the byline, the quick answer that
+   search and AI tools quote first, a table, and the box that points to the
+   app. */
+
+.crumbs {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.75rem;
+}
+
+.crumbs a {
+  color: var(--ink-soft);
+}
+
+.byline {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: -0.25rem 0 1.25rem;
+}
+
+/* Rounded on all four corners, no accent stripe (Patrick, 2 November 2026):
+   the same soft box as the app-store box at the end of the page. */
+.answer {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.15rem;
+  border-radius: 18px;
+  background: var(--honey);
+}
+
+.answer p {
+  margin: 0;
+}
+
+.article figure {
+  margin: 1.5rem 0;
+}
+
+/* Wide pictures (3:2) across the whole text column (Patrick, 2 November
+   2026): a square one pushed the text a screen down on a phone. */
+.article figure img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+}
+
+.article figcaption {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-top: 0.4rem;
+}
+
+/* Tables scroll sideways on a narrow phone rather than squeezing the words. */
+.table-wrap {
+  overflow-x: auto;
+  margin: 1rem 0 1.5rem;
+}
+
+.article table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.97rem;
+}
+
+.article th,
+.article td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.article th {
+  font-weight: 700;
+}
+
+.article .dish-name {
+  white-space: nowrap;
+}
+
+.article [lang="th"],
+.article [lang="ja"],
+.article [lang="ko"] {
+  color: var(--ink-soft);
+  font-size: 0.92em;
+}
+
+.cta {
+  margin: 2rem 0 1.5rem;
+  padding: 1.25rem 1.25rem 1.1rem;
+  border-radius: 18px;
+  background: var(--honey);
+}
+
+.cta h2 {
+  margin-top: 0;
+}
+
+.cta .stores {
+  margin-top: 0.75rem;
+}
+
+/* Ends the footer's first row, the content sections, so the fixed menu
+   (Home, Support, Privacy ...) starts on a row of its own. */
+.footer-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+/* A section overview's list of pages (written by scripts/build_site.py):
+   each entry the page's title as the link, its summary underneath. */
+.index-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.index-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.index-list li span {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--ink-soft);
+}
+
+/* Centred under the centred store boxes (Patrick, 2 November 2026). */
+.cta .early {
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
+.byline a {
+  color: inherit;
+}
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.sources li {
+  margin-bottom: 0.4rem;
+}
+
 @media (max-width: 760px) {
   body.home .shell {
     gap: 3rem;
@@ -515,4 +873,20 @@ body.site-taste10 footer.bottom .wrap {
 body.site-taste10 footer.bottom a,
 body.site-taste10 footer.bottom span[aria-current="page"] {
   margin-right: 0;
+}
+
+/* The store boxes on their own row above the footer menu (Patrick,
+   4 November 2026), a little smaller than on the page itself. */
+body.site-taste10 footer.bottom .footer-stores {
+  flex-basis: 100%;
+  margin: 0 0 1rem;
+}
+
+body.site-taste10 footer.bottom .footer-stores .store {
+  min-width: 10rem;
+  padding: 0.5rem 1rem 0.55rem;
+}
+
+body.site-taste10 footer.bottom .footer-stores .store strong {
+  font-size: 1rem;
 }

@@ -12,9 +12,16 @@
  *   product agree about something a user can actually notice.
  *
  * THE THREE RULES THAT KEEP IT FROM BEING ANNOYING
- *   1. It only ever fires on the two entry pages. Deep links are never
- *      redirected -- somebody following a link to the Privacy Policy in one
+ *   1. It only ever fires on the English homepage, "/" -- the address people
+ *      type. Every other page, /de/ and /pl/ included, is never redirected:
+ *      somebody following a link (or a search result) to a page in one
  *      language means that language.
+ *      Until 10 November 2026 it also fired on /de/ and /pl/. Google's crawler
+ *      reads pages as an English browser, so it was sent from /de/ to "/" and
+ *      reported the German homepage as "Page with redirect", not indexed
+ *      (Search Console, 10 November 2026); Polish the same. Google advises
+ *      against redirecting by browser language for exactly this reason. The
+ *      crawler is never moved from "/", because it reads it in English.
  *   2. A language link that is clicked is an explicit choice and is remembered
  *      for good. After one click this script never moves anybody again.
  *   3. At most once per browsing session, even before any click. A redirect
@@ -49,8 +56,7 @@
   });
 
   // Rule 1.
-  if (location.pathname !== PATHS.en && location.pathname !== PATHS.de &&
-      location.pathname !== PATHS.pl) return;
+  if (location.pathname !== PATHS.en) return;
 
   try {
     if (localStorage.getItem(KEY)) return;              // already chose, once, ever

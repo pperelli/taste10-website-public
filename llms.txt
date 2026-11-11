@@ -50,6 +50,7 @@ Key facts:
 ## Taste Guides
 
 - [Taste Guides](https://taste10.com/guides/): What does it taste like? Plain-language guides to foods you may not know yet: taste, smell, texture, and what you might compare them to.
+- [What does sea urchin taste like?](https://taste10.com/guides/what-does-sea-urchin-taste-like.html): Sea urchin (uni) tastes sweet, briny and rich, with a creamy, custard-like texture. Why it varies so much, and how to try it for the first time.
 - [What does matcha taste like?](https://taste10.com/guides/what-does-matcha-taste-like.html): Matcha tastes grassy, vegetal and savoury, with a gentle bitterness and a sweet finish when it is good. What to expect, and how to choose and try it.
 - [What does kimchi taste like?](https://taste10.com/guides/what-does-kimchi-taste-like.html): Kimchi tastes sour, spicy, salty and savoury, with a crunchy bite and a slight fizz. How its taste changes with age, and how to try it.
 - [What does a century egg taste like?](https://taste10.com/guides/what-does-century-egg-taste-like.html): Century eggs taste rich, savoury and earthy, with a jelly-like white and a creamy yolk. What to expect, why they look that way, and how to try one.
@@ -59,6 +60,7 @@ Key facts:
 ## Geschmacksratgeber
 
 - [Geschmacksratgeber](https://taste10.com/de/geschmacksratgeber/): Wie schmeckt das? Verständliche Ratgeber zu Lebensmitteln, die du vielleicht noch nicht kennst: Geschmack, Geruch, Konsistenz und womit man sie vergleicht.
+- [Wie schmeckt Seeigel?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-seeigel.html): Seeigel (Uni) schmeckt süßlich, nach Meer und vollmundig, mit cremiger Konsistenz wie Pudding. Warum er so unterschiedlich schmeckt und wie du ihn probierst.
 - [Wie schmeckt Matcha?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-matcha.html): Matcha schmeckt grasig, pflanzlich und herzhaft, mit sanfter Bitterkeit und, wenn er gut ist, einem süßen Abgang. Was dich erwartet und wie du ihn probierst.
 - [Wie schmeckt Kimchi?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-kimchi.html): Kimchi schmeckt sauer, scharf, salzig und herzhaft, knackig im Biss und leicht prickelnd. Wie sich der Geschmack mit dem Alter ändert und wie du es probierst.
 - [Wie schmeckt ein Tausendjähriges Ei?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-tausendjaehriges-ei.html): Tausendjährige Eier schmecken reichhaltig, herzhaft und erdig, mit einem Eiweiß wie Gelee und cremigem Dotter. Was dich erwartet und wie du eines probierst.
@@ -68,6 +70,7 @@ Key facts:
 ## Poradniki smaku
 
 - [Poradniki smaku](https://taste10.com/pl/poradniki-smaku/): Jak to smakuje? Proste poradniki o jedzeniu, którego możesz jeszcze nie znać: smak, zapach, konsystencja i do czego można je porównać.
+- [Jak smakuje jeżowiec?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-jezowiec.html): Jeżowiec (uni) smakuje słodko, morsko i pełno, a konsystencją przypomina kremowy budyń. Dlaczego smakuje tak różnie i jak go spróbować.
 - [Jak smakuje matcha?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-matcha.html): Matcha smakuje trawiasto, roślinnie i wytrawnie, z delikatną goryczką i, gdy jest dobra, słodkim finiszem. Czego się spodziewać i jak jej spróbować.
 - [Jak smakuje kimchi?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-kimchi.html): Kimchi smakuje kwaśno, ostro, słono i wytrawnie, jest chrupiące i lekko musujące. Jak jego smak zmienia się z wiekiem i jak go spróbować.
 - [Jak smakuje jajko stuletnie?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-jajko-stuletnie.html): Jajka stuletnie smakują bogato, wytrawnie i ziemiście, z białkiem jak galaretka i kremowym żółtkiem. Czego się spodziewać i jak spróbować pierwszego.

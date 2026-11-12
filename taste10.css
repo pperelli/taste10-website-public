@@ -644,7 +644,11 @@ body.home .shell {
   color: var(--ink-soft);
 }
 
-body.home footer.bottom .wrap {
+/* The footer is as wide as the homepage's on EVERY page (Patrick, 11 November
+   2026): with a fifth section (How-To Guides) the first row no longer fitted
+   the article column and broke onto a second line on a laptop. On a phone it
+   still wraps, as before. */
+body.site-taste10 footer.bottom .wrap {
   max-width: 68rem;
 }
 

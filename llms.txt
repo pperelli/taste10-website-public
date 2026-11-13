@@ -50,6 +50,7 @@ Key facts:
 ## Taste Guides
 
 - [Taste Guides](https://taste10.com/guides/): What does it taste like? Plain-language guides to foods you may not know yet: taste, smell, texture, and what you might compare them to.
+- [What does salty liquorice taste like?](https://taste10.com/guides/what-does-salty-liquorice-taste-like.html): Salty liquorice (salmiak) tastes sweet, salty and sharp at once, with a tingle sweet liquorice lacks. What is in it, why, and how to try it.
 - [What does sea urchin taste like?](https://taste10.com/guides/what-does-sea-urchin-taste-like.html): Sea urchin (uni) tastes sweet, briny and rich, with a creamy, custard-like texture. What uni on a sushi menu is like, and how to try it the first time.
 - [What does matcha taste like?](https://taste10.com/guides/what-does-matcha-taste-like.html): Matcha tastes grassy, vegetal and savoury, with a gentle bitterness and a sweet finish when it is good. What to expect, and how to choose and try it.
 - [What does kimchi taste like?](https://taste10.com/guides/what-does-kimchi-taste-like.html): Kimchi tastes sour, spicy, salty and savoury, with a crunchy bite and a slight fizz. How its taste changes with age, and how to try it.
@@ -60,6 +61,7 @@ Key facts:
 ## Geschmacksratgeber
 
 - [Geschmacksratgeber](https://taste10.com/de/geschmacksratgeber/): Wie schmeckt das? Verständliche Ratgeber zu Lebensmitteln, die du vielleicht noch nicht kennst: Geschmack, Geruch, Konsistenz und womit man sie vergleicht.
+- [Wie schmeckt Salzlakritz?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-salzlakritz.html): Salzlakritz (Salmiak) schmeckt süß, salzig und scharf zugleich, mit einem Kribbeln, das süßes Lakritz nicht hat. Was drin ist und wie man es probiert.
 - [Wie schmeckt Seeigel?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-seeigel.html): Seeigel (Uni) schmeckt süßlich, nach Meer und vollmundig, mit cremiger Konsistenz wie Pudding. Warum er so unterschiedlich schmeckt und wie du ihn probierst.
 - [Wie schmeckt Matcha?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-matcha.html): Matcha schmeckt grasig, pflanzlich und herzhaft, mit sanfter Bitterkeit und, wenn er gut ist, einem süßen Abgang. Was dich erwartet und wie du ihn probierst.
 - [Wie schmeckt Kimchi?](https://taste10.com/de/geschmacksratgeber/wie-schmeckt-kimchi.html): Kimchi schmeckt sauer, scharf, salzig und herzhaft, knackig im Biss und leicht prickelnd. Wie sich der Geschmack mit dem Alter ändert und wie du es probierst.
@@ -70,6 +72,7 @@ Key facts:
 ## Poradniki smaku
 
 - [Poradniki smaku](https://taste10.com/pl/poradniki-smaku/): Jak to smakuje? Proste poradniki o jedzeniu, którego możesz jeszcze nie znać: smak, zapach, konsystencja i do czego można je porównać.
+- [Jak smakuje słona lukrecja?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-slona-lukrecja.html): Słona lukrecja (salmiakki) jest naraz słodka, słona i ostra, z mrowieniem, którego nie ma słodka. Co w niej jest i jak jej spróbować.
 - [Jak smakuje jeżowiec?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-jezowiec.html): Jeżowiec (uni) smakuje słodko, morsko i pełno, a konsystencją przypomina kremowy budyń. Dlaczego smakuje tak różnie i jak go spróbować.
 - [Jak smakuje matcha?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-matcha.html): Matcha smakuje trawiasto, roślinnie i wytrawnie, z delikatną goryczką i, gdy jest dobra, słodkim finiszem. Czego się spodziewać i jak jej spróbować.
 - [Jak smakuje kimchi?](https://taste10.com/pl/poradniki-smaku/jak-smakuje-kimchi.html): Kimchi smakuje kwaśno, ostro, słono i wytrawnie, jest chrupiące i lekko musujące. Jak jego smak zmienia się z wiekiem i jak go spróbować.

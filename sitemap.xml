@@ -91,6 +91,27 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/umami.html"/>
   </url>
   <url>
+    <loc>https://taste10.com/guides/what-does-salty-liquorice-taste-like.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-salty-liquorice-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-salzlakritz.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-slona-lukrecja.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/wie-schmeckt-salzlakritz.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-salty-liquorice-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-salzlakritz.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-slona-lukrecja.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/jak-smakuje-slona-lukrecja.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-salty-liquorice-taste-like.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/wie-schmeckt-salzlakritz.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-slona-lukrecja.html"/>
+  </url>
+  <url>
     <loc>https://taste10.com/guides/what-does-sea-urchin-taste-like.html</loc>
     <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-sea-urchin-taste-like.html"/>
@@ -596,21 +617,21 @@
   </url>
   <url>
     <loc>https://taste10.com/guides/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
   </url>
   <url>
     <loc>https://taste10.com/de/geschmacksratgeber/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
   </url>
   <url>
     <loc>https://taste10.com/pl/poradniki-smaku/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>

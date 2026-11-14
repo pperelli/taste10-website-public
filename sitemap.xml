@@ -259,6 +259,27 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/koreanskie-menu.html"/>
   </url>
   <url>
+    <loc>https://taste10.com/eating-abroad/japanese-menu-guide.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/japanese-menu-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/japanische-speisekarte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/japonskie-menu.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/essen-im-ausland/japanische-speisekarte.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/japanese-menu-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/japanische-speisekarte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/japonskie-menu.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/jedzenie-za-granica/japonskie-menu.html</loc>
+    <lastmod>2026-11-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/japanese-menu-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/japanische-speisekarte.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/japonskie-menu.html"/>
+  </url>
+  <url>
     <loc>https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html</loc>
     <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html"/>
@@ -638,21 +659,21 @@
   </url>
   <url>
     <loc>https://taste10.com/eating-abroad/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/"/>
   </url>
   <url>
     <loc>https://taste10.com/de/essen-im-ausland/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/"/>
   </url>
   <url>
     <loc>https://taste10.com/pl/jedzenie-za-granica/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/eating-abroad/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/essen-im-ausland/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/jedzenie-za-granica/"/>

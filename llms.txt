@@ -83,6 +83,7 @@ Key facts:
 ## Eating Abroad
 
 - [Eating Abroad](https://taste10.com/eating-abroad/): Dishes, menus and shop shelves from other countries, explained: what things taste like, what they are called, and what to try first.
+- [What's on a Japanese menu? 20 dishes and what they taste like](https://taste10.com/eating-abroad/japanese-menu-guide.html): Nigiri vs sashimi, ramen types, tempura, donburi, omakase and more: what 20 dishes on a Japanese menu are, what they taste like, and what to order.
 - [12 unusual Asian supermarket finds, and what they taste like](https://taste10.com/eating-abroad/asian-supermarket-finds.html): Seaweed snacks, wasabi peas, mochi, marble soda, century eggs and more: what unusual Asian supermarket finds taste like, from easy to bold.
 - [10 traditional Mexican dishes beyond tacos, and how they taste](https://taste10.com/eating-abroad/mexican-dishes-beyond-tacos.html): Mole, pozole, chiles rellenos, tamales and more: what ten classic Mexican dishes taste like and how hot they usually are, beyond tacos.
 - [Korean dishes explained: a first-timer's guide to the menu](https://taste10.com/eating-abroad/korean-menu-guide.html): Bibimbap, bulgogi, kimchi stew, tteokbokki and more: what the dishes on a Korean menu taste like, which are spicy, and what to order first.
@@ -92,6 +93,7 @@ Key facts:
 ## Essen im Ausland
 
 - [Essen im Ausland](https://taste10.com/de/essen-im-ausland/): Gerichte, Speisekarten und Supermarktregale aus anderen Ländern, erklärt: wie es schmeckt, wie es heißt und was du zuerst probieren kannst.
+- [Was steht auf einer japanischen Speisekarte? 20 Gerichte und wie sie schmecken](https://taste10.com/de/essen-im-ausland/japanische-speisekarte.html): Nigiri oder Sashimi, Ramen-Sorten, Tempura, Donburi, Omakase und mehr: was 20 Gerichte einer japanischen Speisekarte sind und wie sie schmecken.
 - [Asiamarkt: 12 ungewöhnliche Produkte, und wie sie schmecken](https://taste10.com/de/essen-im-ausland/asiamarkt.html): Algen-Snacks, Wasabi-Erbsen, Mochi, Murmel-Limo, Tausendjährige Eier und mehr: wie ungewöhnliche Funde aus dem Asiamarkt schmecken, von leicht bis mutig.
 - [Mexikanisches Essen: 10 Gerichte jenseits von Tacos, und wie sie schmecken](https://taste10.com/de/essen-im-ausland/mexikanische-gerichte.html): Mole, Pozole, Chiles Rellenos, Tamales und mehr: wie zehn klassische mexikanische Gerichte schmecken und wie scharf sie meist sind, jenseits von Tacos.
 - [Koreanisches Essen für Einsteiger: die Speisekarte erklärt](https://taste10.com/de/essen-im-ausland/koreanische-speisekarte.html): Bibimbap, Bulgogi, Kimchi-Eintopf, Tteokbokki und mehr: wie die Gerichte auf einer koreanischen Speisekarte schmecken und welche scharf sind.
@@ -101,6 +103,7 @@ Key facts:
 ## Jedzenie za granicą
 
 - [Jedzenie za granicą](https://taste10.com/pl/jedzenie-za-granica/): Dania, menu i sklepowe półki z innych krajów, wyjaśnione: jak smakują, jak się nazywają i czego spróbować najpierw.
+- [Co jest w japońskim menu? 20 dań i jak smakują](https://taste10.com/pl/jedzenie-za-granica/japonskie-menu.html): Nigiri czy sashimi, rodzaje ramen, tempura, donburi, omakase i więcej: czym jest 20 dań z japońskiego menu i jak smakują.
 - [Sklep azjatycki: 12 nietypowych produktów i jak smakują](https://taste10.com/pl/jedzenie-za-granica/sklep-azjatycki.html): Chipsy z wodorostów, groszek wasabi, mochi, lemoniada z kulką, jajka stuletnie i więcej: jak smakują nietypowe znaleziska ze sklepu azjatyckiego.
 - [Kuchnia meksykańska: 10 dań poza tacos i jak smakują](https://taste10.com/pl/jedzenie-za-granica/dania-meksykanskie.html): Mole, pozole, chiles rellenos, tamales i więcej: jak smakuje dziesięć klasycznych dań meksykańskich i jak bardzo są zwykle ostre, poza tacos.
 - [Kuchnia koreańska dla początkujących: menu wyjaśnione](https://taste10.com/pl/jedzenie-za-granica/koreanskie-menu.html): Bibimbap, bulgogi, gulasz kimchi, tteokbokki i więcej: jak smakują dania z koreańskiego menu, które są ostre i co zamówić na początek.

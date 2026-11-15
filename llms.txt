@@ -113,6 +113,7 @@ Key facts:
 ## Taste Glossary
 
 - [Taste Glossary](https://taste10.com/glossary/): Taste explained in plain language: what the words for flavour really mean, and why the same food can taste so different to different people.
+- [What is the Scoville scale? Chilli heat from mild to extreme](https://taste10.com/glossary/scoville-scale.html): The Scoville scale ranks chillies by heat, from 0 for a bell pepper to 2.7 million for Pepper X. The chart, how it is measured and why heat feels personal.
 - [Acquired taste: meaning, examples and why tastes change](https://taste10.com/glossary/what-is-an-acquired-taste.html): An acquired taste is a food you learn to like only after trying it several times, like coffee, olives or blue cheese. Why that happens, and why tastes change.
 - [Why do fermented foods taste the way they do?](https://taste10.com/glossary/fermented-flavour.html): Fermented foods taste sour, savoury, deep and sometimes funky. What fermentation does to flavour, from sauerkraut to cheese, soy sauce and sourdough.
 - [What does "astringent" mean in food and drink?](https://taste10.com/glossary/astringent.html): Astringent is the dry, puckering feeling some foods and drinks leave in the mouth, as with strong tea or unripe fruit. What causes it, and where to find it.
@@ -122,6 +123,7 @@ Key facts:
 ## Geschmackslexikon
 
 - [Geschmackslexikon](https://taste10.com/de/geschmackslexikon/): Geschmack einfach erklärt: was die Wörter für Aromen wirklich bedeuten und warum dasselbe Essen für verschiedene Menschen so verschieden schmeckt.
+- [Was ist die Scoville-Skala? Chili-Schärfe von mild bis extrem](https://taste10.com/de/geschmackslexikon/scoville-skala.html): Die Scoville-Skala ordnet Chilis nach Schärfe, von 0 bei Paprika bis 2,7 Millionen bei Pepper X. Mit Tabelle, Messmethode und warum Schärfe persönlich ist.
 - [Warum mag man manches erst mit der Zeit?](https://taste10.com/de/geschmackslexikon/geschmack-gewoehnen.html): Kaffee, Oliven, Blauschimmelkäse: Manches mag man erst, wenn man es öfter probiert hat. Warum das so ist und warum sich Geschmack im Leben verändert.
 - [Warum schmecken fermentierte Lebensmittel so, wie sie schmecken?](https://taste10.com/de/geschmackslexikon/fermentierter-geschmack.html): Fermentiertes schmeckt sauer, herzhaft, tief und manchmal streng. Was Fermentation mit dem Geschmack macht, von Sauerkraut über Käse und Sojasoße bis Sauerteig.
 - [Was bedeutet adstringierend bei Essen und Getränken?](https://taste10.com/de/geschmackslexikon/adstringierend.html): Adstringierend ist das trockene, pelzige Gefühl, das manche Lebensmittel und Getränke im Mund hinterlassen, etwa starker Tee. Woher es kommt und wo es vorkommt.
@@ -131,6 +133,7 @@ Key facts:
 ## Słownik smaku
 
 - [Słownik smaku](https://taste10.com/pl/slownik-smaku/): Smak w prostych słowach: co naprawdę znaczą słowa opisujące smak i dlaczego to samo jedzenie smakuje różnym ludziom tak różnie.
+- [Czym jest skala Scoville’a? Ostrość papryczek od łagodnych do ekstremalnych](https://taste10.com/pl/slownik-smaku/skala-scovillea.html): Skala Scoville’a szereguje papryczki według ostrości, od 0 dla papryki słodkiej do 2,7 mln dla Pepper X. Tabela, pomiar i dlaczego ostrość jest osobista.
 - [Dlaczego niektóre smaki uczymy się lubić z czasem?](https://taste10.com/pl/slownik-smaku/smaki-ktore-trzeba-polubic.html): Kawa, oliwki, ser pleśniowy: niektóre smaki zaczyna się lubić dopiero po kilku próbach. Dlaczego tak jest i dlaczego smak zmienia się przez całe życie.
 - [Kiszonki i fermentowane jedzenie: skąd ten smak?](https://taste10.com/pl/slownik-smaku/smak-fermentowany.html): Fermentowane jedzenie smakuje kwaśno, wytrawnie, głęboko, a czasem intensywnie. Co fermentacja robi ze smakiem, od kiszonej kapusty przez ser po sos sojowy.
 - [Co znaczy cierpki smak w jedzeniu i napojach?](https://taste10.com/pl/slownik-smaku/cierpki-smak.html): Cierpkość to suche, ściągające uczucie, jakie zostawiają w ustach niektóre potrawy i napoje, na przykład mocna herbata. Skąd się bierze i gdzie ją spotkać.

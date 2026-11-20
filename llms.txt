@@ -149,6 +149,7 @@ Key facts:
 ## How-To Guides
 
 - [How-To Guides](https://taste10.com/how-to/): Practical guides for real food dilemmas: new foods, new places, long menus and picky palates, and how to find what you will actually enjoy.
+- [Coffee drinks explained: how to pick one you'll enjoy](https://taste10.com/how-to/coffee-drinks.html): What does each coffee drink taste like? Latte, cappuccino, flat white, macchiato, cortado and 10 more explained, with the differences and how to order.
 - [Bubble tea flavours explained: how to order boba you'll enjoy](https://taste10.com/how-to/bubble-tea-flavours.html): What is bubble tea, and what does each flavour taste like? 15 boba flavours and 8 toppings explained, and how to order with sugar and ice levels.
 - [What should I get for dinner? How to choose takeout you'll enjoy](https://taste10.com/how-to/what-takeout-should-i-get.html): Can't decide what takeout to get? Takeout ideas by mood, five quick steps to choose, and which dishes still taste good after delivery.
 - [How to know if you'll like a food before you buy it](https://taste10.com/how-to/know-if-you-will-like-a-food.html): Unsure about a new product, dish or fruit? The clues on a pack worth reading, what star ratings cannot tell you, and a prediction for your own taste.
@@ -160,6 +161,7 @@ Key facts:
 ## Praxis-Ratgeber
 
 - [Praxis-Ratgeber](https://taste10.com/de/praxis-ratgeber/): Praktische Ratgeber für echte Essensfragen: neue Lebensmittel, neue Orte, lange Speisekarten und wählerische Gaumen, und wie du findest, was dir schmeckt.
+- [Kaffeespezialitäten erklärt: So findest du den Kaffee, der dir schmeckt](https://taste10.com/de/praxis-ratgeber/kaffeesorten.html): Wie schmeckt welcher Kaffee? Flat White, Cortado, Cappuccino, Latte Macchiato und 11 weitere erklärt, mit den Unterschieden und Tipps zum Bestellen.
 - [Bubble-Tea-Sorten erklärt: so bestellst du einen Bubble Tea, der dir schmeckt](https://taste10.com/de/praxis-ratgeber/bubble-tea-sorten.html): Was ist Bubble Tea, und wie schmeckt jede Sorte? 15 Sorten und 8 Toppings von Tapioka-Perlen bis Popping Boba, dazu Zucker und Eis beim Bestellen.
 - [Was essen heute Abend? So bestellst du Essen, das dir schmeckt](https://taste10.com/de/praxis-ratgeber/was-essen-heute-abend.html): Keine Ahnung, was du bestellen sollst? Ideen nach Lust und Laune, fünf schnelle Schritte zur Wahl und welche Gerichte die Lieferung gut überstehen.
 - [Wie weiß ich, ob mir etwas schmeckt, bevor ich es kaufe?](https://taste10.com/de/praxis-ratgeber/schmeckt-es-mir-vor-dem-kauf.html): Unsicher bei einem neuen Produkt, Gericht oder einer Frucht? Welche Hinweise auf der Packung helfen, was Sterne nicht verraten und was zu dir passt.
@@ -171,6 +173,7 @@ Key facts:
 ## Praktyczne porady
 
 - [Praktyczne porady](https://taste10.com/pl/praktyczne-porady/): Praktyczne porady na prawdziwe dylematy przy jedzeniu: nowe potrawy, nowe miejsca, długie menu i wybredny gust, i jak znaleźć to, co naprawdę smakuje.
+- [Rodzaje kaw w kawiarni: jak wybrać taką, która ci zasmakuje](https://taste10.com/pl/praktyczne-porady/rodzaje-kaw.html): Jak smakuje każda kawa? Flat white, cortado, cappuccino, latte, espresso macchiato i 10 innych: czym się różnią i jak zamówić kawę, która ci zasmakuje.
 - [Smaki bubble tea: co to jest i jak zamówić taką, która ci zasmakuje](https://taste10.com/pl/praktyczne-porady/bubble-tea-smaki.html): Co to jest bubble tea i jaki smak wybrać? 15 smaków i 8 dodatków, od kuleczek z tapioki po popping boba, oraz jak zamówić poziom cukru i lodu.
 - [Co zjeść na kolację? Jak wybrać jedzenie na wynos, które ci zasmakuje](https://taste10.com/pl/praktyczne-porady/co-zjesc-na-kolacje.html): Nie wiesz, co zamówić? Pomysły na jedzenie na wynos według nastroju, 5 szybkich kroków do wyboru i dania, które dobrze znoszą dowóz.
 - [Jak sprawdzić, czy coś ci zasmakuje, zanim to kupisz](https://taste10.com/pl/praktyczne-porady/czy-mi-zasmakuje-przed-zakupem.html): Nowy produkt, danie albo owoc i nie wiesz, czy będzie smakować? Wskazówki na opakowaniu, czego nie powiedzą gwiazdki i prognoza dla twojego smaku.

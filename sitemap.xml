@@ -112,6 +112,27 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/jak-smakuje-slona-lukrecja.html"/>
   </url>
   <url>
+    <loc>https://taste10.com/guides/types-of-apples.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/types-of-apples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/apfelsorten.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/odmiany-jablek.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmacksratgeber/apfelsorten.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/types-of-apples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/apfelsorten.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/odmiany-jablek.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/poradniki-smaku/odmiany-jablek.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/types-of-apples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/apfelsorten.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/odmiany-jablek.html"/>
+  </url>
+  <url>
     <loc>https://taste10.com/guides/what-does-sea-urchin-taste-like.html</loc>
     <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/what-does-sea-urchin-taste-like.html"/>
@@ -890,21 +911,21 @@
   </url>
   <url>
     <loc>https://taste10.com/guides/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
   </url>
   <url>
     <loc>https://taste10.com/de/geschmacksratgeber/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>
   </url>
   <url>
     <loc>https://taste10.com/pl/poradniki-smaku/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmacksratgeber/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/poradniki-smaku/"/>

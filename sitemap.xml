@@ -532,6 +532,27 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/mouthfeel.html"/>
   </url>
   <url>
+    <loc>https://taste10.com/glossary/gamey.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/gamey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/wildgeschmack.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smak-dziczyzny.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/de/geschmackslexikon/wildgeschmack.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/gamey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/wildgeschmack.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smak-dziczyzny.html"/>
+  </url>
+  <url>
+    <loc>https://taste10.com/pl/slownik-smaku/smak-dziczyzny.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/gamey.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/wildgeschmack.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/smak-dziczyzny.html"/>
+  </url>
+  <url>
     <loc>https://taste10.com/how-it-works/how-taste10-learns-your-taste.html</loc>
     <lastmod>2026-11-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/how-it-works/how-taste10-learns-your-taste.html"/>
@@ -1016,21 +1037,21 @@
   </url>
   <url>
     <loc>https://taste10.com/glossary/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/"/>
   </url>
   <url>
     <loc>https://taste10.com/de/geschmackslexikon/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/"/>
   </url>
   <url>
     <loc>https://taste10.com/pl/slownik-smaku/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://taste10.com/glossary/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://taste10.com/de/geschmackslexikon/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://taste10.com/pl/slownik-smaku/"/>

@@ -122,6 +122,7 @@ Key facts:
 ## Taste Glossary
 
 - [Taste Glossary](https://taste10.com/glossary/): Taste explained in plain language: what the words for flavour really mean, and why the same food can taste so different to different people.
+- [What do rare, medium and well done mean? Steak doneness explained, level by level](https://taste10.com/glossary/steak-doneness.html): What rare, medium rare, medium and well done mean, how each level of steak doneness tastes and feels, and how to order a steak you will enjoy.
 - [What does gamey mean? The gamey taste explained, meat by meat](https://taste10.com/glossary/gamey.html): Gamey means the strong, earthy, wild flavour of lamb, goat, venison or duck. What causes it, which meats taste most and least gamey, and how to order.
 - [What is mouthfeel? Meaning, food texture words and examples](https://taste10.com/glossary/mouthfeel.html): Mouthfeel is how a food or drink feels in your mouth: crispy, creamy, chewy, slimy. The meaning, a table of texture words with examples, and crispy vs crunchy.
 - [What is the Scoville scale? Chilli heat from mild to extreme](https://taste10.com/glossary/scoville-scale.html): The Scoville scale ranks chillies by heat, from 0 for a bell pepper to 2.7 million for Pepper X. The chart, how it is measured and why heat feels personal.
@@ -134,6 +135,7 @@ Key facts:
 ## Geschmackslexikon
 
 - [Geschmackslexikon](https://taste10.com/de/geschmackslexikon/): Geschmack einfach erklärt: was die Wörter für Aromen wirklich bedeuten und warum dasselbe Essen für verschiedene Menschen so verschieden schmeckt.
+- [Garstufen beim Steak: Was bedeuten rare, medium und well done?](https://taste10.com/de/geschmackslexikon/garstufen-steak.html): Was rare, medium rare, medium und well done bedeuten, wie sich jede Garstufe beim Steak anfühlt und schmeckt und wie du ein Steak bestellst, das dir schmeckt.
 - [Was ist Wildgeschmack? Wie Lamm, Wild, Ziege und Ente schmecken](https://taste10.com/de/geschmackslexikon/wildgeschmack.html): Wildgeschmack und Hautgout: Was sie bedeuten, woher der kräftige Geschmack von Lamm, Reh, Ziege und Ente kommt, welches Fleisch mild ist und wie du bestellst.
 - [Was ist Mundgefühl? Bedeutung, Wörter für Konsistenz und Beispiele](https://taste10.com/de/geschmackslexikon/mundgefuehl.html): Mundgefühl ist, wie sich Essen oder Trinken im Mund anfühlt: knusprig, cremig, bissfest, schleimig. Bedeutung, Wörter für Konsistenz mit Beispielen.
 - [Was ist die Scoville-Skala? Chili-Schärfe von mild bis extrem](https://taste10.com/de/geschmackslexikon/scoville-skala.html): Die Scoville-Skala ordnet Chilis nach Schärfe, von 0 bei Paprika bis 2,7 Millionen bei Pepper X. Mit Tabelle, Messmethode und warum Schärfe persönlich ist.
@@ -146,6 +148,7 @@ Key facts:
 ## Słownik smaku
 
 - [Słownik smaku](https://taste10.com/pl/slownik-smaku/): Smak w prostych słowach: co naprawdę znaczą słowa opisujące smak i dlaczego to samo jedzenie smakuje różnym ludziom tak różnie.
+- [Stopnie wysmażenia steka: co znaczą rare, medium i well done?](https://taste10.com/pl/slownik-smaku/stopnie-wysmazenia-steka.html): Co znaczą rare, medium rare, medium i well done, jak smakuje i jaką konsystencję ma każdy stopień wysmażenia steka oraz jak zamówić stek, który ci zasmakuje.
 - [Smak dziczyzny: co to znaczy i jak smakuje jagnięcina, baranina, koźlina i kaczka](https://taste10.com/pl/slownik-smaku/smak-dziczyzny.html): Co znaczy smak dziczyzny, skąd się bierze w jagnięcinie, baraninie, koźlinie i kaczce, które mięso jest najłagodniejsze i jak zamawiać, gdy nie masz pewności.
 - [Co to jest mouthfeel? Odczucie w ustach, konsystencja i przykłady](https://taste10.com/pl/slownik-smaku/mouthfeel.html): Mouthfeel to odczucie w ustach: chrupiące, kremowe, ciągnące się, śliskie. Co to znaczy, słowa opisujące konsystencję z przykładami i crispy a crunchy.
 - [Czym jest skala Scoville’a? Ostrość papryczek od łagodnych do ekstremalnych](https://taste10.com/pl/slownik-smaku/skala-scovillea.html): Skala Scoville’a szereguje papryczki według ostrości, od 0 dla papryki słodkiej do 2,7 mln dla Pepper X. Tabela, pomiar i dlaczego każdy odczuwa ją inaczej.

@@ -86,6 +86,7 @@ Key facts:
 ## Eating Abroad
 
 - [Eating Abroad](https://taste10.com/eating-abroad/): Dishes, menus and shop shelves from other countries, explained: what things taste like, what they are called, and what to try first.
+- [What's on a Vietnamese menu? 20 popular dishes and what they taste like](https://taste10.com/eating-abroad/vietnamese-menu-guide.html): 20 popular Vietnamese dishes, from pho and banh mi to bun cha and bun bo Hue: what each tastes like, which are spicy, and the menu words to know.
 - [What's on a Chinese menu? 20 popular dishes and what they taste like](https://taste10.com/eating-abroad/chinese-menu-guide.html): 20 popular Chinese dishes, from dim sum and Peking duck to kung pao chicken and mapo tofu: what each tastes like, which are spicy, and menu words.
 - [What's on an Indian menu? 20 popular dishes from mild to hot, and what they taste like](https://taste10.com/eating-abroad/indian-menu-guide.html): 20 popular Indian dishes and types of curry, from mild korma to hot vindaloo, what each tastes like, and the menu words that help you order.
 - [What's on a Japanese menu? 20 dishes and what they taste like](https://taste10.com/eating-abroad/japanese-menu-guide.html): Nigiri vs sashimi, ramen types, tempura, donburi, omakase and more: what 20 dishes on a Japanese menu are, what they taste like, and what to order.
@@ -98,6 +99,7 @@ Key facts:
 ## Essen im Ausland
 
 - [Essen im Ausland](https://taste10.com/de/essen-im-ausland/): Gerichte, Speisekarten und Supermarktregale aus anderen Ländern, erklärt: wie es schmeckt, wie es heißt und was du zuerst probieren kannst.
+- [Was steht auf einer vietnamesischen Speisekarte? 20 beliebte Gerichte, und wie sie schmecken](https://taste10.com/de/essen-im-ausland/vietnamesisches-essen.html): Pho, Sommerrollen, Banh mi, Bun cha und Bun bo Hue: 20 beliebte vietnamesische Gerichte, wie sie schmecken, welche scharf sind, plus Eier- und Salzkaffee.
 - [Was steht auf einer chinesischen Speisekarte? 20 beliebte Gerichte, und wie sie schmecken](https://taste10.com/de/essen-im-ausland/chinesisches-essen.html): Dim Sum, Peking-Ente, gebratene Nudeln, Kung Pao und Mapo Tofu: 20 beliebte chinesische Gerichte, wie sie schmecken und welche scharf sind.
 - [Was steht auf einer indischen Speisekarte? 20 beliebte Gerichte von mild bis scharf, und wie sie schmecken](https://taste10.com/de/essen-im-ausland/indisches-essen.html): Butter Chicken, Tikka Masala, Korma, Vindaloo und mehr: 20 beliebte indische Gerichte, wie sie schmecken und wie scharf sie sind.
 - [Was steht auf einer japanischen Speisekarte? 20 Gerichte und wie sie schmecken](https://taste10.com/de/essen-im-ausland/japanische-speisekarte.html): Nigiri oder Sashimi, Ramen-Sorten, Tempura, Donburi, Omakase und mehr: was 20 Gerichte einer japanischen Speisekarte sind und wie sie schmecken.
@@ -110,6 +112,7 @@ Key facts:
 ## Jedzenie za granicą
 
 - [Jedzenie za granicą](https://taste10.com/pl/jedzenie-za-granica/): Dania, menu i sklepowe półki z innych krajów, wyjaśnione: jak smakują, jak się nazywają i czego spróbować najpierw.
+- [Co jest w wietnamskim menu? 20 popularnych dań i jak smakują](https://taste10.com/pl/jedzenie-za-granica/kuchnia-wietnamska.html): Pho, sajgonki, banh mi, bun cha i bun bo Hue: 20 popularnych dań kuchni wietnamskiej, jak smakują, które są ostre, oraz kawa z jajkiem i z solą.
 - [Co jest w chińskim menu? 20 popularnych dań i jak smakują](https://taste10.com/pl/jedzenie-za-granica/kuchnia-chinska.html): Dim sum, kaczka po pekińsku, chow mein, kurczak kung pao i mapo tofu: 20 popularnych dań kuchni chińskiej, jak smakują i które są ostre.
 - [Co jest w indyjskim menu? 20 popularnych dań od łagodnych po ostre i jak smakują](https://taste10.com/pl/jedzenie-za-granica/kuchnia-indyjska.html): Butter chicken, tikka masala, korma, vindaloo i więcej: 20 popularnych dań kuchni indyjskiej, jak smakują i jak bardzo są ostre.
 - [Co jest w japońskim menu? 20 dań i jak smakują](https://taste10.com/pl/jedzenie-za-granica/japonskie-menu.html): Nigiri czy sashimi, rodzaje ramen, tempura, donburi, omakase i więcej: czym jest 20 dań z japońskiego menu i jak smakują.
